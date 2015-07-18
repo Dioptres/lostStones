@@ -4,6 +4,7 @@ using System.Collections;
 public class WarpGrenade : MonoBehaviour {
 
 	public Vector3 _beginPos;
+	public Vector3 Decalage;
 	public Vector3 _startVelocity;
 	public float _timestep;
 	public float _maxTime;
@@ -67,7 +68,7 @@ public class WarpGrenade : MonoBehaviour {
 
 		if(Input.GetMouseButton(1))
 		{
-			_beginPos = transform.position + Camera.main.transform.forward * 0 + Camera.main.transform.right * 0.5f;
+			_beginPos = transform.position + Camera.main.transform.forward * Decalage.z + Camera.main.transform.right * Decalage.x+Camera.main.transform.up* Decalage.y;
 			_startVelocity = Camera.main.transform.forward * throwForce + Vector3.up * upThrow;
 			PlotTrajectory (_beginPos,_startVelocity, _timestep, _maxTime);
 			_LR.enabled = true;

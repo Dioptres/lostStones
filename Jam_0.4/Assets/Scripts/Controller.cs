@@ -78,7 +78,7 @@ public class Controller : MonoBehaviour {
 		else
 		{
 			AirMove();
-			rbody.AddRelativeForce(new Vector3(_xMove*_airSpeed * Time.deltaTime, 0, _zMove*_airSpeed * Time.deltaTime), ForceMode.Acceleration);
+			rbody.AddRelativeForce(Camera.main.transform.right *_xMove*_airSpeed * Time.deltaTime+ Camera.main.transform.forward *_zMove*_airSpeed * Time.deltaTime, ForceMode.Acceleration);
 		}
 	}
 
