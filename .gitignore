@@ -1,5 +1,6 @@
 Jam_0.4/Temp/UnityLockfile
 *.info
+Jam_0.4/Library/
 Jam_0.4/Library/metadata/51/511a8a0b6d0d1b646ac74609cd798004
 *.info
 Jam_0.4/Library/metadata/2f/2f425aa1dba0f804fa016520e1ce2677
@@ -9,3 +10,8 @@ Jam_0.4/Temp/UnityTempFile-161b7fb10f8363547a3078163ee130dc
 Jam_0.4/Library/metadata/00/00000000000000004000000000000000
 Jam_0.4/Library/metadata/00/00000000000000004000000000000000
 Jam_0.4/Library/metadata/00/00000000000000004000000000000000
+Jam_0.4/Library/metadata/00/00000000000000007000000000000000
+*.info
+
+*.info
+*.log
