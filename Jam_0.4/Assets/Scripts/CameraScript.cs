@@ -7,6 +7,9 @@ public class CameraScript : MonoBehaviour {
 
 	void LateUpdate () 
 	{
-		transform.position = _player.position + _player.up * 0.75f;
+		//transform.position = _player.position + _player.up * 0.75f;
+		//transform.rotation = transform.localRotation;
+	//	transform.rotation.eu
 	}
+
 }

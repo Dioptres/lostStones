@@ -35,7 +35,7 @@ public class Controller : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		transform.eulerAngles = new Vector3(0, Camera.main.transform.eulerAngles.y, 0);
+		//transform.eulerAngles = new Vector3(0, Camera.main.transform.eulerAngles.y, 0);
 		//Camera.main.transform.position = transform.position + transform.up * 0.75f;
 
 	}
@@ -54,7 +54,7 @@ public class Controller : MonoBehaviour {
 				sprint = true;
 			}
 			
-			Vector3 dirXZ = (transform.right * Input.GetAxisRaw("Horizontal") + transform.forward * Input.GetAxisRaw("Vertical")).normalized;
+			Vector3 dirXZ = (Camera.main.transform.right * Input.GetAxisRaw("Horizontal") + Camera.main.transform.forward * Input.GetAxisRaw("Vertical")).normalized;
 			
 			if(sprint)
 			{

@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\GroundMark.cs" />
      <Compile Include="Assets\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\RotationCorps.cs" />
      <Compile Include="Assets\Scripts\Shooting.cs" />
      <Compile Include="Assets\Scripts\WarpGrenade.cs" />
      <Compile Include="Assets\Scripts\enemy2Behavior.cs" />
